@@ -1,1 +1,11 @@
 car_uk_brands.csv
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
