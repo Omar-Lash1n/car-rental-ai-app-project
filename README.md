@@ -96,3 +96,31 @@ The response is:
 ## Limitation (Unknown Categories)
 
 The API uses one-hot encoding with a fixed set of columns saved from training. If you send a brand/model/transmission/fuelType that was not seen during training, it will not get a dedicated one-hot column and effectively contributes zeros for those unknown categories. The API still returns a prediction, but accuracy may degrade for truly unseen values.
+
+## Project Screenshots & Outputs
+
+### 1. AutoValue AI Frontend Interface
+![AutoValue AI Frontend Interface](Screenshot%202026-05-22%20003335.jpg)
+
+### 2. FastAPI Swagger UI (Predict Endpoint)
+![FastAPI Swagger UI](Screenshot%202026-05-22%20003727.jpg)
+
+### 3. Model Performance Comparison
+![Model Performance Comparison](Screenshot%202026-05-22%20003709.jpg)
+
+### 4. Exploratory Data Analysis (EDA)
+
+#### Distribution of Car Prices
+![Distribution of Car Prices](Screenshot%202026-05-22%20003718.jpg)
+
+#### Correlation Heatmap of Numerical Features
+![Correlation Heatmap](Screenshot%202026-05-22%20003639.jpg)
+
+#### Relationship Between Mileage and Price
+![Relationship Between Mileage and Price](Screenshot%202026-05-22%20003628.jpg)
+
+#### Average Car Price Trend by Year (1995 - 2020)
+![Average Car Price Trend by Year](Screenshot%202026-05-22%20003649.jpg)
+
+#### Average Car Price by Transmission Type
+![Average Car Price by Transmission Type](Screenshot%202026-05-22%20003658.jpg)
